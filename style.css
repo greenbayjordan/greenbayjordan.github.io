@@ -123,7 +123,7 @@ h10{
   h3{
     font-family: "Helvetica";
     color: #C40933;
-    margin-left: 185px;
+    margin-left: 110px;
   }
 
   .contactme{
@@ -193,14 +193,14 @@ hwrite {
   font-family: "Helvetica";
   font-size: 14pt;
   color: black;
-  margin-left: 185px;
+  margin-left: 160px;
 
 }
 
 p {
   font-family: "helvetica";
   font-size: 10pt;
-  margin-left:225px;
+  margin-left:240px;
 }
 
 p2 {
@@ -219,7 +219,7 @@ h22{
   font-family: "Helvetica";
   font-weight: bold;
   font-size: 17pt;
-  margin-left:210px;
+  margin-left:190px;
 }
 
 h13 {
@@ -227,4 +227,11 @@ h13 {
   font-weight: bold;
   font-size: 15pt;
 
+}
+
+p10 {
+  font-family: "helvetica"
+  font-weight: lighter;
+  font-size: 10pt;
+  float: right;
 }
