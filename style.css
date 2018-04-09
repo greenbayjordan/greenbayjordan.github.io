@@ -4,6 +4,9 @@ h1 {
 
 /* Nav bar */
 
+h2 {
+  font-family: "Helvetica";
+}
 #nav_bar_wrapper {
     background-color: #F4F4E5;
     /* position: fixed; */
@@ -120,7 +123,7 @@ h10{
   h3{
     font-family: "Helvetica";
     color: #C40933;
-    margin-left: 300px;
+    margin-left: 185px;
   }
 
   .contactme{
@@ -172,3 +175,56 @@ h12{
     margin-left: 350px;
     font-family: "Helvetica";
   }
+
+  .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+hwrite {
+  font-family: "Helvetica";
+  font-size: 14pt;
+  color: black;
+  margin-left: 185px;
+
+}
+
+p {
+  font-family: "helvetica";
+  font-size: 10pt;
+  margin-left:225px;
+}
+
+p2 {
+  font-style: oblique;
+  font-family: "helvetica"
+  font-size: 10pt;
+  margin-left: 225px;
+}
+
+.faces{
+  margin-left: 175px;
+  margin-right:175px;
+}
+
+h22{
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-size: 17pt;
+  margin-left:210px;
+}
+
+h13 {
+  font-family: "helvetica"
+  font-weight: bold;
+  font-size: 15pt;
+
+}
