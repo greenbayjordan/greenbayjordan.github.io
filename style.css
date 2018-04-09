@@ -1,0 +1,174 @@
+h1 {
+    color: SlateBlue;
+}
+
+/* Nav bar */
+
+#nav_bar_wrapper {
+    background-color: #F4F4E5;
+    /* position: fixed; */
+    top:0;
+    left:0;
+    width: 100%;
+    height: 70px;
+}
+#nav_bar {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: table;
+    background-color: #5d4e79;
+    color: #ffffff;
+    width: 800px;
+    height: 44px;
+    text-align: center;
+}
+#nav_bar ul{
+    padding-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#nav_bar li{
+    display: inline;
+    list-style-type: none;
+    padding: 15px;
+    font-family: 'Helvetica';
+    font-weight: 300;
+    font-size: 16pt;
+}
+#nav_bar a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+#nav_bar a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.jordanhead{
+    object-fit: cover;
+    width: 100%;
+    margin-left: 150px;
+
+
+
+}
+
+.jordantitle{
+  font-family: 'Helvetica';
+  font-size: 28pt;
+
+}
+.about{
+  font-family: "Helvetica";
+  font-size: 12pt;
+  margin-left: 475px;
+  margin-right: 150px;
+}
+
+.abouttitle{
+  font-family: "Helvetica";
+  margin-left: 475px;
+}
+
+.CV{
+  margin-left: 475px;
+  margin-top: 30px;
+  font-family: "Helvetica";
+}
+
+body{
+  background-color: #F4F4E5;
+}
+
+.researchtitle{
+  margin-left: 450px;
+  font-family: "Helvetica";
+
+
+}
+
+.researchcontent{
+  margin-left: 485px;
+  margin-right: 150px;
+  font-family: "Helvetica";
+
+}
+
+h3{
+  color: #C40933;
+}
+
+.tree{
+  margin-left: 125px;
+}
+
+
+
+  .Contact{
+    margin-left: 260px;
+    font-family: "Helvetica";
+  }
+
+h10{
+  font-family: "Helvetica";
+  margin-left: 0px;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #C40933;
+}
+  h3{
+    font-family: "Helvetica";
+    color: #C40933;
+    margin-left: 300px;
+  }
+
+  .contactme{
+    font-family: "Helvetica";
+    margin-left: 275px;
+    margin-right: 350px;
+  }
+
+  .email{
+    font-family: "Helvetica";
+    margin-left: 50px;
+  }
+
+  .keith {
+    margin-right: 275px;
+  }
+
+  .emailpic{
+    margin-left: 275px;
+    /* margin-bottom: 2000px; */
+
+  }
+
+  .linkedinpic{
+  /*  margin-left: 275px;
+    /* margin-left: 0px; */
+  }
+
+  .twitterpic{
+    /* margin-left: 275px; */
+    /* margin-right: 1000px; */
+  }
+
+h12{
+  font-family: "Helvetica";
+  color: #C40933;
+  font-weight: bold;
+  font-size: 14pt;
+  margin-left: 20px;
+}
+  h11{
+    font-family: "Helvetica";
+    color: #C40933;
+    font-weight: bold;
+    font-size: 14pt;
+    margin-left: 20px;
+  }
+  dd{
+    margin-left: 350px;
+    font-family: "Helvetica";
+  }
