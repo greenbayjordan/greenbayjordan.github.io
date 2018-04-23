@@ -30,6 +30,7 @@ h2 {
     padding-left: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
+
 }
 #nav_bar li{
     display: inline;
@@ -52,14 +53,13 @@ h2 {
     object-fit: cover;
     width: 100%;
     margin-left: 150px;
-
-
-
 }
 
 .jordantitle{
-  font-family: 'Helvetica';
-  font-size: 28pt;
+  font-family: 'Molengo', sans-serif;
+  font-weight: 700;
+  font-size: 32pt;
+  text-align: center;
 
 }
 .about{
