@@ -8,7 +8,7 @@ h2 {
   font-family: "Helvetica";
 }
 #nav_bar_wrapper {
-    background-color: #bfdee1;
+    background-color: #c6e3e5;
     /* position: fixed; */
     top:0;
     left:0;
@@ -53,6 +53,7 @@ h2 {
     object-fit: cover;
     width: 100%;
     margin-left: 150px;
+    margin-top: 20px;
 
 }
 
@@ -69,7 +70,8 @@ h2 {
   margin-left: 475px;
   margin-right: 150px;
   border: 6px solid gray;
-  padding: 10px
+  padding: 10px;
+  background-color: white;
 }
 
 .abouttitle{
@@ -88,7 +90,7 @@ body{
 }
 
 .researchtitle{
-  margin-left: 450px;
+  margin-left: 485px;
   font-family: "Helvetica";
 
 
@@ -100,15 +102,11 @@ body{
   font-family: "Helvetica";
   border: 6px solid gray;
   padding: 10px;
-
+  background-color: white;
 }
 
 
 
-]
-h3{
-  color: #C40933;
-}
 
 .tree{
   margin-left: 125px;
@@ -126,12 +124,12 @@ h10{
   margin-left: 0px;
   font-weight: bold;
   font-size: 14pt;
-  color: #C40933;
+  color: #c7ac17;
 }
   h3{
     font-family: "Helvetica";
-    color: #C40933;
     margin-left: 110px;
+    color: #c7ac17;
   }
 
   .contactme{
