@@ -8,7 +8,7 @@ h2 {
   font-family: "Helvetica";
 }
 #nav_bar_wrapper {
-    background-color: #F4F4E5;
+    background-color: #bfdee1;
     /* position: fixed; */
     top:0;
     left:0;
@@ -53,6 +53,7 @@ h2 {
     object-fit: cover;
     width: 100%;
     margin-left: 150px;
+
 }
 
 .jordantitle{
@@ -67,6 +68,8 @@ h2 {
   font-size: 12pt;
   margin-left: 475px;
   margin-right: 150px;
+  border: 6px solid gray;
+  padding: 10px
 }
 
 .abouttitle{
@@ -81,7 +84,7 @@ h2 {
 }
 
 body{
-  background-color: #F4F4E5;
+  background-color: #c6e3e5;
 }
 
 .researchtitle{
@@ -95,9 +98,14 @@ body{
   margin-left: 485px;
   margin-right: 150px;
   font-family: "Helvetica";
+  border: 6px solid gray;
+  padding: 10px;
 
 }
 
+
+
+]
 h3{
   color: #C40933;
 }
