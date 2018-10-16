@@ -1,1 +1,270 @@
+title_name{
+  font-size: 50px;
+}
 
+bigjordan{
+    font-family: 'Molengo', sans-serif;
+    font-weight: 700;
+    font-size: 40pt;
+    text-align: center;
+
+}
+
+myResume{
+  /* display: block; */
+  padding-left: 12.5em;
+
+}
+
+section{
+  min-width: 80em;
+
+}
+
+sectionport{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+
+    width: 70%;
+    min-width: 878px;
+    background-color:  #E0E0E0;
+    padding: 20px;
+    height: auto;
+
+    border: 3px solid gray;
+    margin-bottom: 25px;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #c6e3e5; /* blue teal color */
+    font-weight: 300;
+}
+
+.center {
+    align:"center"
+    display: block;
+    margin-left: 11em;
+    margin-right: auto;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.w3-content{
+  /* background-color: red; */
+  /* margin-left: 15em; */
+}
+
+.w3-display-container{
+  /* background-color: black; */
+}
+
+/* Style the header */
+header {
+    background-color:#c6e3e5; /* blue teal color */
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+
+#nav_bar_wrapper {
+    background-color: #c6e3e5;
+    /* position: fixed; */
+    top:0;
+    left:0;
+    width: 100%;
+    height: 70px;
+}
+#nav_bar {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: table;
+    background-color: #5d4e79;
+    color: #ffffff;
+    width: 800px;
+    height: 44px;
+    height: auto;
+    text-align: center;
+    border: 3px solid gray;
+}
+#nav_bar ul{
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+#nav_bar li{
+    display: inline;
+    list-style-type: none;
+    padding: 15px;
+    font-family: 'Helvetica';
+    font-weight: 300;
+    font-size: 16pt;
+}
+#nav_bar a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+#nav_bar a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+pagetitles {
+  font-family: "Helvetica";
+  font-size: 16pt;
+  font-weight: 300;
+
+
+}
+
+.page_title_portfolio{
+  text-align: center;
+  font-family: "Helvetica";
+  font-size: 16pt;
+  font-weight: 300;
+   min-width: 20em;
+}
+
+.w3-button{
+  padding: 14px 200px;
+  font-size: 30;
+  margin-left: 0.5em;
+}
+
+.w3-display-left{
+
+}
+
+.w3-display-right{
+
+}
+
+researchtitle {
+  font-family: "Helvetica";
+  font-size: 14pt;
+  font-weight: 400;
+  }
+
+  /* p_image {
+    font-size: 11px;
+    font-style: italic;
+    color: white;
+  }
+/* Create two columns/boxes that floats next to each other */
+left_column {
+    float: left;
+    /* float: right; */
+    width: 30%;
+    background: #5d4e79;
+    padding: 20px;
+    height: auto;
+
+    margin-left: 150px;
+    margin-right: 25px;
+    border: 3px solid gray;
+    margin-bottom: 25px;
+
+}
+
+right_column {
+    float: left;
+    /* float: right; */
+    padding: 20px;
+    width: 45%;
+    height: 24.4em;
+    background-color: #E0E0E0		;
+    margin-bottom: 25px;
+    margin-right: 70px;
+    border: 3px solid gray;
+}
+
+  right_column_research{
+    float: left;
+    padding: 20px;
+    width: 50%;
+    height: 47em;
+    background-color: #E0E0E0		;
+    margin-bottom: 25px;
+    margin-right: 70px;
+    border: 3px solid gray;
+
+  }
+
+right_column_contact{
+  float: left;
+  padding: 20px;
+  width: 45%;
+  height: 35em;
+  background-color: #E0E0E0		;
+  margin-bottom: 25px;
+  margin-right: 70px;
+  border: 3px solid gray;
+}
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other
+instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*  cool contact bar below*/
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #E0E0E0;
+    padding: 20px;
+}
