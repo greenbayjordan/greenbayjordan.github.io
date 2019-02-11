@@ -48,6 +48,7 @@ body {
     font-weight: 300;
 }
 
+
 .center {
     align:"center"
     display: block;
@@ -176,13 +177,26 @@ left_column {
     margin-bottom: 25px;
 
 }
+left_column2 {
+  float: left;
+  /* float: right; */
+  width: 19.75%;
+  background: #5d4e79;
+  padding: 20px;
+  height: auto;
+
+  margin-left: 150px;
+  margin-right: 25px;
+  border: 3px solid gray;
+  margin-bottom: 25px;
+}
 
 right_column {
     float: left;
     /* float: right; */
     padding: 20px;
     width: 45%;
-    height: 24.4em;
+    height: 30em;
     background-color: #E0E0E0		;
     margin-bottom: 25px;
     margin-right: 70px;
@@ -192,8 +206,8 @@ right_column {
   right_column_research{
     float: left;
     padding: 20px;
-    width: 50%;
-    height: 47em;
+    width: 47%;
+    height: 55em;
     background-color: #E0E0E0		;
     margin-bottom: 25px;
     margin-right: 70px;
