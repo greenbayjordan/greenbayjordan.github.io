@@ -12,26 +12,7 @@ bigjordan{
 
 myResume{
   /* display: block; */
-  /* padding-left: 12.5em; */
-  padding: auto;
-  /* margin: auto; */
-  /* width: 100%; */
-  border: 100px;
-  border-color:#5d4e79;
-
-  /* position: absolute; */
-    /* margin: auto;
-    top: 50%;
-    left: 50%; */
-    /* transform: translate(-50%, -50%); */
-  display: block;
-  /* margin: 0 auto; */
-
-  margin-left: 20%;
-  margin-right: 20%;
-
-  min-height: 38em;
-  max-height: 38em;
+  padding-left: 12.5em;
 
 }
 
@@ -40,23 +21,64 @@ section{
 
 }
 
-sectionport{
+pagecontent{
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
     margin-top: auto;
 
-    width: 70%;
-    min-width: 878px;
+    padding: 0em;
+
+    max-width: 70em;
+    min-width: 70em;
+
     background-color:  #E0E0E0;
     padding: 20px;
-    height: auto;
+    /* height: auto; */
 
     border: 3px solid gray;
     margin-bottom: 25px;
 
 }
+
+.row_box{
+  max-width: 68em;
+  min-width: 68em;
+
+  /* margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em; */
+
+  margin: auto;
+
+  /* border: 3px solid red; */
+}
+
+.row_subbox_width_x{
+  max-width: 22em;
+  min-width: 22em;
+
+  max-height: 16.6em;
+  min-height: 16.6em;
+
+  /* border: 3px solid green; */
+  display: inline-block;
+}
+
+.row_subbox_width_2x{
+  max-width: 44em;
+  min-width: 44em;
+
+  max-height: 16.6em;
+  min-height: 16.6em;
+
+  /* border: 3px solid blue; */
+  display: inline-block;
+}
+
+
 * {
     box-sizing: border-box;
 }
@@ -66,6 +88,8 @@ body {
     background-color: #c6e3e5; /* blue teal color */
     font-weight: 300;
 }
+
+.
 
 
 .center {
@@ -215,7 +239,7 @@ right_column {
     /* float: right; */
     padding: 20px;
     width: 45%;
-    /* height: 30em; */
+    height: 30em;
     background-color: #E0E0E0		;
     margin-bottom: 25px;
     margin-right: 70px;
@@ -244,6 +268,24 @@ right_column_contact{
   margin-right: 70px;
   border: 3px solid gray;
 }
+
+img {
+  border: 1px solid black;
+  border-radius: 4px;
+  /* padding: 5px; */
+  /* width: 150px; */
+  /* width: 100%;
+  object-fit: cover; */
+
+  max-width: 100%;
+  height: auto;
+}
+
+img:hover{
+  box-shadow: 0 0 40px 1px rgba(100, 140, 186, 0.8);
+}
+
+
 /* Clear floats after the columns */
 section:after {
     content: "";
