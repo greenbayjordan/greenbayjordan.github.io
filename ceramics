@@ -20,7 +20,7 @@
 
 <!- Header slash Navigation bar -->
   <header>
-    <bigjordan>Jordan Packer</bigjordan>
+    <bigjordan>Jordan Rose Packer</bigjordan>
 
     <div id="nav_bar_wrapper">
         <div id="nav_bar">
@@ -29,6 +29,7 @@
             <li><a href="CV.html">CV</a></li>
             <li><a href="research.html">research</a></li>
             <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="contact.html">contact</a></li>
             <li><a href="ceramics.html">ceramics</a></li>
           </ul>
         </div>
@@ -52,17 +53,18 @@
 
     </right_column> -->
 <sectionport>
-  <div class="page_title_portfolio"> Portfolio </div>
+  <div class="page_title_ceramics"> Ceramics </div>
 
     <!-- <div class="w3-content w3-display-container" class="center"> <br> <br> -->
       <div  class="w3-display-container"> <br> <br>
-      <img class="mySlides" src="./images/gport1.png" style="width:100%">
-      <img class="mySlides" src="./images/gport2.png" style="width:100%">
-      <img class="mySlides" src="./images/gport3.png" style="width:100%">
-      <img class="mySlides" src="./images/gport4.png" style="width:100%">
-      <img class="mySlides" src="./images/gport5.png" style="width:100%">
-      <img class="mySlides" src="./images/gport6.png" style="width:100%">
-      <img class="mySlides" src="./images/gport7.png" style="width:100%">
+      <img class="mySlides" src="./images/port.png" style="width:100%">
+      <img class="mySlides" src="./images/port1.png" style="width:100%">
+      <img class="mySlides" src="./images/port2.png" style="width:100%">
+      <img class="mySlides" src="./images/port3.png" style="width:100%">
+      <img class="mySlides" src="./images/port4.png" style="width:100%">
+      <img class="mySlides" src="./images/port5.png" style="width:100%">
+      <img class="mySlides" src="./images/port6.png" style="width:100%">
+      <img class="mySlides" src="./images/port7.png" style="width:100%">
 
       <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
       <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
