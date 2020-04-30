@@ -10,6 +10,12 @@ bigjordan{
 
 }
 
+
+foot{
+  text-align: left;
+  margin-left: 600px;
+  font-family: Helvetica, sans-serif;
+}
 myResume{
   /* display: block; */
   /* padding-left: 12.5em; */
@@ -49,9 +55,10 @@ sectionport{
 
     width: 70%;
     min-width: 878px;
-    background-color:  #E0E0E0;
+    background-color:  #57652A;
     padding: 20px;
     height: auto;
+    color: white;
 
     border: 3px solid gray;
     margin-bottom: 25px;
@@ -63,7 +70,7 @@ sectionport{
 
 body {
     font-family: Helvetica, sans-serif;
-    background-color: #c6e3e5; /* blue teal color */
+    background-color:  #FAFAD2		; /* blue teal color */
     font-weight: 300;
 }
 
@@ -88,7 +95,7 @@ body {
 
 /* Style the header */
 header {
-    background-color:#c6e3e5; /* blue teal color */
+    background-color: #FAFAD2; /* blue teal color */
     padding: 30px;
     text-align: center;
     font-size: 35px;
@@ -97,7 +104,7 @@ header {
 
 
 #nav_bar_wrapper {
-    background-color: #c6e3e5;
+    background-color:  #FAFAD2;
     /* position: fixed; */
     top:0;
     left:0;
@@ -109,13 +116,13 @@ header {
     margin-right: auto;
     margin-top: 15px;
     display: table;
-    background-color: #5d4e79;
-    color: #ffffff;
+    background-color: #155765;
+
     width: 800px;
     height: 44px;
     height: auto;
     text-align: center;
-    border: 3px solid gray;
+    border:;
 }
 #nav_bar ul{
     padding-left: 0px;
@@ -186,7 +193,7 @@ left_column {
     float: left;
     /* float: right; */
     width: 30%;
-    background: #5d4e79;
+    background: #57652A;
     padding: 20px;
     height: auto;
 
@@ -199,10 +206,11 @@ left_column {
 left_column2 {
   float: left;
   /* float: right; */
-  width: 19.75%;
-  background: #5d4e79;
+  width: 19.7%;
+  background: #57652A;
   padding: 20px;
   height: auto;
+  color: white;
 
   margin-left: 150px;
   margin-right: 25px;
@@ -230,9 +238,69 @@ right_column {
     background-color: #E0E0E0		;
     margin-bottom: 25px;
     margin-right: 70px;
-    border: 3px solid gray;
 
   }
+
+top_left_column_CV{
+  float: left;
+  /* float: right; */
+  width: 25%;
+  background: #57652A;
+  padding: 20px;
+  height: 32em;
+  color: white;
+
+  margin-left: 150px;
+  margin-right: 25px;
+  border: 3px solid gray;
+  margin-bottom: 25px;
+}
+
+bottom_left_column_CV{
+  float: left;
+  width: 25%;
+  background: #155765;
+  padding: 50px;
+  padding-top: 90px;
+  height: 14em;
+  color: white;
+
+  margin-left: 150px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+
+top_right_column_CV{
+  float: left;
+  width: 50%;
+  background: #E0E0E0;
+  padding: 20px;
+  height: 30.5em;
+  height: auto;
+  /* border: 3px solid gray; */
+
+
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+bottom_right_column_CV {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  height: 14em;
+  background-color: #AB9353		;
+
+  /* border: 3px solid gray; */
+
+  margin-bottom: 25px;
+  margin-right: 25px;
+  border: solid gray;
+}
+
+
+
 
 right_column_contact{
   float: left;
@@ -253,10 +321,11 @@ section:after {
 
 /* Style the footer */
 footer {
-    background-color: #777;
+    background-color: #4d2c3d;
     padding: 10px;
     text-align: center;
     color: white;
+
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other
@@ -301,3 +370,34 @@ input[type=submit]:hover {
     background-color: #E0E0E0;
     padding: 20px;
 }
+
+/* USED FOR SOCIAL MEDIA ICONS IN FOOTER open */
+.fa {
+  padding: 20px;
+  font-size: 25px;
+  width: 65px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 15px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #AB9353;
+  color: white;
+}
+
+.fa-google {
+  background: #AB9353;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #AB9353;
+  color: white;
+}
+/* USED FOR SOCIAL MEDIA ICONS IN FOOTER close */
