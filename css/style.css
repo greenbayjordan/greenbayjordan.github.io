@@ -193,7 +193,7 @@ left_column {
     float: left;
     /* float: right; */
     width: 30%;
-    background: #57652A;
+    background: #AB9353;
     padding: 20px;
     height: auto;
 
@@ -224,10 +224,11 @@ right_column {
     padding: 20px;
     width: 45%;
     /* height: 30em; */
-    background-color: #E0E0E0		;
+    background-color: #57652A	;
     margin-bottom: 25px;
     margin-right: 70px;
     border: 3px solid gray;
+    color: white;
 }
 
   right_column_research{
